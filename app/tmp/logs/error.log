@@ -1,0 +1,1777 @@
+2014-06-03 12:57:58 Error: [MissingPluginException] Plugin DebugKit could not be found.
+Exception Attributes: array (
+  'plugin' => 'DebugKit',
+)
+Request URL: /UserLoginLogout/
+Stack Trace:
+#0 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Core\App.php(365): CakePlugin::path('DebugKit')
+#1 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Core\App.php(226): App::pluginPath('DebugKit')
+#2 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Core\App.php(547): App::path('Controller/Comp...', 'DebugKit')
+#3 [internal function]: App::load('ToolbarComponen...')
+#4 [internal function]: spl_autoload_call('ToolbarComponen...')
+#5 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Controller\ComponentCollection.php(110): class_exists('ToolbarComponen...')
+#6 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Controller\ComponentCollection.php(53): ComponentCollection->load('DebugKit.Toolba...', Array)
+#7 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Controller\Controller.php(643): ComponentCollection->init(Object(PagesController))
+#8 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Routing\Dispatcher.php(186): Controller->constructClasses()
+#9 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#10 C:\xampp\htdocs\UserLoginLogout\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2014-06-03 12:59:16 Error: [MissingPluginException] Plugin DebugKit could not be found.
+Exception Attributes: array (
+  'plugin' => 'DebugKit',
+)
+Request URL: /UserLoginLogout/
+Stack Trace:
+#0 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Core\App.php(365): CakePlugin::path('DebugKit')
+#1 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Core\App.php(226): App::pluginPath('DebugKit')
+#2 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Core\App.php(547): App::path('Controller/Comp...', 'DebugKit')
+#3 [internal function]: App::load('ToolbarComponen...')
+#4 [internal function]: spl_autoload_call('ToolbarComponen...')
+#5 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Controller\ComponentCollection.php(110): class_exists('ToolbarComponen...')
+#6 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Controller\ComponentCollection.php(53): ComponentCollection->load('DebugKit.Toolba...', Array)
+#7 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Controller\Controller.php(643): ComponentCollection->init(Object(PagesController))
+#8 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Routing\Dispatcher.php(186): Controller->constructClasses()
+#9 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#10 C:\xampp\htdocs\UserLoginLogout\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2014-06-03 12:59:18 Error: [MissingPluginException] Plugin DebugKit could not be found.
+Exception Attributes: array (
+  'plugin' => 'DebugKit',
+)
+Request URL: /UserLoginLogout/
+Stack Trace:
+#0 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Core\App.php(365): CakePlugin::path('DebugKit')
+#1 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Core\App.php(226): App::pluginPath('DebugKit')
+#2 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Core\App.php(547): App::path('Controller/Comp...', 'DebugKit')
+#3 [internal function]: App::load('ToolbarComponen...')
+#4 [internal function]: spl_autoload_call('ToolbarComponen...')
+#5 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Controller\ComponentCollection.php(110): class_exists('ToolbarComponen...')
+#6 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Controller\ComponentCollection.php(53): ComponentCollection->load('DebugKit.Toolba...', Array)
+#7 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Controller\Controller.php(643): ComponentCollection->init(Object(PagesController))
+#8 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Routing\Dispatcher.php(186): Controller->constructClasses()
+#9 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#10 C:\xampp\htdocs\UserLoginLogout\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2014-06-03 13:00:03 Error: Fatal Error (4): syntax error, unexpected T_STRING, expecting T_FUNCTION in [C:\xampp\htdocs\UserLoginLogout\app\Controller\AppController.php, line 36]
+2014-06-03 13:00:03 Error: [FatalErrorException] syntax error, unexpected T_STRING, expecting T_FUNCTION
+Request URL: /UserLoginLogout/
+Stack Trace:
+#0 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 36)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 36, Array)
+#2 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 36, Array)
+#3 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-06-03 13:00:20 Error: [MissingPluginException] Plugin DebugKit could not be found.
+Exception Attributes: array (
+  'plugin' => 'DebugKit',
+)
+Request URL: /UserLoginLogout/
+Stack Trace:
+#0 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Core\App.php(365): CakePlugin::path('DebugKit')
+#1 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Core\App.php(226): App::pluginPath('DebugKit')
+#2 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Core\App.php(547): App::path('Controller/Comp...', 'DebugKit')
+#3 [internal function]: App::load('ToolbarComponen...')
+#4 [internal function]: spl_autoload_call('ToolbarComponen...')
+#5 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Controller\ComponentCollection.php(110): class_exists('ToolbarComponen...')
+#6 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Controller\ComponentCollection.php(53): ComponentCollection->load('DebugKit.Toolba...', Array)
+#7 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Controller\Controller.php(643): ComponentCollection->init(Object(PagesController))
+#8 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Routing\Dispatcher.php(186): Controller->constructClasses()
+#9 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#10 C:\xampp\htdocs\UserLoginLogout\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2014-06-03 13:22:53 Error: [MissingViewException] View file "C:\xampp\htdocs\UserLoginLogout\app\View\Users\login.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\xampp\\htdocs\\UserLoginLogout\\app\\View\\Users\\login.ctp',
+)
+Request URL: /UserLoginLogout/
+Stack Trace:
+#0 C:\xampp\htdocs\UserLoginLogout\lib\Cake\View\View.php(468): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#3 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 C:\xampp\htdocs\UserLoginLogout\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-06-03 13:49:37 Error: [MissingControllerException] Controller class Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Controller',
+  'plugin' => NULL,
+)
+Request URL: /UserLoginLogout/users//1
+Stack Trace:
+#0 C:\xampp\htdocs\UserLoginLogout\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-03 13:49:42 Error: [MissingActionException] Action UsersController::1() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => '1',
+)
+Request URL: /UserLoginLogout/users/1
+Stack Trace:
+#0 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\UserLoginLogout\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-06-04 07:17:04 Error: Fatal Error (1): Call to undefined method App::country() in [C:\xampp\htdocs\UserLoginLogout\app\Model\Country.php, line 2]
+2014-06-04 07:17:04 Error: [FatalErrorException] Call to undefined method App::country()
+Request URL: /UserLoginLogout/country/add
+Stack Trace:
+#0 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'C:\xampp\htdocs...', 2)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'C:\xampp\htdocs...', 2, Array)
+#2 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'C:\xampp\htdocs...', 2, Array)
+#3 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-06-04 07:17:38 Error: [MissingTableException] Table countries for model Country was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'countries',
+  'class' => 'Country',
+  'ds' => 'default',
+)
+Request URL: /UserLoginLogout/country/add
+Stack Trace:
+#0 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Model\Model.php(3501): Model->setSource('countries')
+#1 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Model\Model.php(1357): Model->getDataSource()
+#2 C:\xampp\htdocs\UserLoginLogout\lib\Cake\View\Helper\FormHelper.php(215): Model->schema()
+#3 C:\xampp\htdocs\UserLoginLogout\lib\Cake\View\Helper\FormHelper.php(467): FormHelper->_introspectModel('Country', 'fields')
+#4 C:\xampp\htdocs\UserLoginLogout\app\View\country\add.ctp(3): FormHelper->create('Country')
+#5 C:\xampp\htdocs\UserLoginLogout\lib\Cake\View\View.php(948): include('C:\xampp\htdocs...')
+#6 C:\xampp\htdocs\UserLoginLogout\lib\Cake\View\View.php(910): View->_evaluate('C:\xampp\htdocs...', Array)
+#7 C:\xampp\htdocs\UserLoginLogout\lib\Cake\View\View.php(471): View->_render('C:\xampp\htdocs...')
+#8 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#9 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#10 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(CountryController), Object(CakeRequest))
+#11 C:\xampp\htdocs\UserLoginLogout\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-06-04 07:25:42 Error: [MissingViewException] View file "C:\xampp\htdocs\UserLoginLogout\app\View\Country\index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\xampp\\htdocs\\UserLoginLogout\\app\\View\\Country\\index.ctp',
+)
+Request URL: /UserLoginLogout/country
+Stack Trace:
+#0 C:\xampp\htdocs\UserLoginLogout\lib\Cake\View\View.php(468): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#3 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(CountryController), Object(CakeRequest))
+#4 C:\xampp\htdocs\UserLoginLogout\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-06-04 07:35:33 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Country.id' in 'where clause'
+Request URL: /UserLoginLogout/country/edit/2
+Stack Trace:
+#0 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT `Country...', Array)
+#2 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT `Country...', Array, Array)
+#3 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Country...', false)
+#4 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Model\Model.php(2905): DboSource->read(Object(Country), Array)
+#5 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Model\Model.php(2877): Model->_readDataSource('first', Array)
+#6 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Model\Datasource\DboSource.php(597): Model->find('first', Array)
+#7 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Model\Model.php(800): DboSource->query('findById', Array, Object(Country))
+#8 C:\xampp\htdocs\UserLoginLogout\app\Controller\CountryController.php(69): Model->__call('findById', Array)
+#9 C:\xampp\htdocs\UserLoginLogout\app\Controller\CountryController.php(69): Country->findById('2')
+#10 [internal function]: CountryController->edit('2')
+#11 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(CountryController), Array)
+#12 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#13 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(CountryController), Object(CakeRequest))
+#14 C:\xampp\htdocs\UserLoginLogout\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2014-06-04 07:35:33 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Country.id' in 'where clause'
+Request URL: /UserLoginLogout/country/edit/2
+Stack Trace:
+#0 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT `Country...', Array)
+#2 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT `Country...', Array, Array)
+#3 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Country...', false)
+#4 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Model\Model.php(2905): DboSource->read(Object(Country), Array)
+#5 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Model\Model.php(2877): Model->_readDataSource('first', Array)
+#6 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Model\Datasource\DboSource.php(597): Model->find('first', Array)
+#7 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Model\Model.php(800): DboSource->query('findById', Array, Object(Country))
+#8 C:\xampp\htdocs\UserLoginLogout\app\Controller\CountryController.php(69): Model->__call('findById', Array)
+#9 C:\xampp\htdocs\UserLoginLogout\app\Controller\CountryController.php(69): Country->findById('2')
+#10 [internal function]: CountryController->edit('2')
+#11 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(CountryController), Array)
+#12 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#13 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(CountryController), Object(CakeRequest))
+#14 C:\xampp\htdocs\UserLoginLogout\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2014-06-04 07:36:56 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Country.id' in 'where clause'
+Request URL: /UserLoginLogout/country/edit/2
+Stack Trace:
+#0 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT `Country...', Array)
+#2 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT `Country...', Array, Array)
+#3 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Country...', false)
+#4 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Model\Model.php(2905): DboSource->read(Object(Country), Array)
+#5 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Model\Model.php(2877): Model->_readDataSource('first', Array)
+#6 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Model\Datasource\DboSource.php(597): Model->find('first', Array)
+#7 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Model\Model.php(800): DboSource->query('findById', Array, Object(Country))
+#8 C:\xampp\htdocs\UserLoginLogout\app\Controller\CountryController.php(69): Model->__call('findById', Array)
+#9 C:\xampp\htdocs\UserLoginLogout\app\Controller\CountryController.php(69): Country->findById('2')
+#10 [internal function]: CountryController->edit('2')
+#11 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(CountryController), Array)
+#12 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#13 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(CountryController), Object(CakeRequest))
+#14 C:\xampp\htdocs\UserLoginLogout\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2014-06-04 07:37:08 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Country.id' in 'where clause'
+Request URL: /UserLoginLogout/country/edit/2
+Stack Trace:
+#0 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT `Country...', Array)
+#2 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT `Country...', Array, Array)
+#3 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Country...', false)
+#4 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Model\Model.php(2905): DboSource->read(Object(Country), Array)
+#5 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Model\Model.php(2877): Model->_readDataSource('first', Array)
+#6 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Model\Datasource\DboSource.php(597): Model->find('first', Array)
+#7 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Model\Model.php(800): DboSource->query('findById', Array, Object(Country))
+#8 C:\xampp\htdocs\UserLoginLogout\app\Controller\CountryController.php(69): Model->__call('findById', Array)
+#9 C:\xampp\htdocs\UserLoginLogout\app\Controller\CountryController.php(69): Country->findById('2')
+#10 [internal function]: CountryController->edit('2')
+#11 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(CountryController), Array)
+#12 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#13 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(CountryController), Object(CakeRequest))
+#14 C:\xampp\htdocs\UserLoginLogout\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2014-06-04 07:42:33 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Country.id' in 'where clause'
+Request URL: /UserLoginLogout/country/edit/2
+Stack Trace:
+#0 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT `Country...', Array)
+#2 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT `Country...', Array, Array)
+#3 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Country...', false)
+#4 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Model\Model.php(2905): DboSource->read(Object(Country), Array)
+#5 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Model\Model.php(2877): Model->_readDataSource('first', Array)
+#6 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Model\Datasource\DboSource.php(597): Model->find('first', Array)
+#7 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Model\Model.php(800): DboSource->query('findById', Array, Object(Country))
+#8 C:\xampp\htdocs\UserLoginLogout\app\Controller\CountryController.php(69): Model->__call('findById', Array)
+#9 C:\xampp\htdocs\UserLoginLogout\app\Controller\CountryController.php(69): Country->findById('2')
+#10 [internal function]: CountryController->edit('2')
+#11 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(CountryController), Array)
+#12 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#13 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(CountryController), Object(CakeRequest))
+#14 C:\xampp\htdocs\UserLoginLogout\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2014-06-04 07:42:38 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Country.id' in 'where clause'
+Request URL: /UserLoginLogout/country/edit/2
+Stack Trace:
+#0 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT `Country...', Array)
+#2 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT `Country...', Array, Array)
+#3 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Country...', false)
+#4 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Model\Model.php(2905): DboSource->read(Object(Country), Array)
+#5 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Model\Model.php(2877): Model->_readDataSource('first', Array)
+#6 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Model\Datasource\DboSource.php(597): Model->find('first', Array)
+#7 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Model\Model.php(800): DboSource->query('findById', Array, Object(Country))
+#8 C:\xampp\htdocs\UserLoginLogout\app\Controller\CountryController.php(69): Model->__call('findById', Array)
+#9 C:\xampp\htdocs\UserLoginLogout\app\Controller\CountryController.php(69): Country->findById('2')
+#10 [internal function]: CountryController->edit('2')
+#11 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(CountryController), Array)
+#12 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#13 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(CountryController), Object(CakeRequest))
+#14 C:\xampp\htdocs\UserLoginLogout\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2014-06-04 07:43:02 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Country.id' in 'where clause'
+Request URL: /UserLoginLogout/country/edit/2
+Stack Trace:
+#0 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT `Country...', Array)
+#2 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT `Country...', Array, Array)
+#3 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Country...', false)
+#4 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Model\Model.php(2905): DboSource->read(Object(Country), Array)
+#5 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Model\Model.php(2877): Model->_readDataSource('first', Array)
+#6 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Model\Datasource\DboSource.php(597): Model->find('first', Array)
+#7 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Model\Model.php(800): DboSource->query('findById', Array, Object(Country))
+#8 C:\xampp\htdocs\UserLoginLogout\app\Controller\CountryController.php(69): Model->__call('findById', Array)
+#9 C:\xampp\htdocs\UserLoginLogout\app\Controller\CountryController.php(69): Country->findById('2')
+#10 [internal function]: CountryController->edit('2')
+#11 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(CountryController), Array)
+#12 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#13 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(CountryController), Object(CakeRequest))
+#14 C:\xampp\htdocs\UserLoginLogout\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2014-06-04 07:43:21 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Country.id' in 'where clause'
+Request URL: /UserLoginLogout/country/edit/2
+Stack Trace:
+#0 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT `Country...', Array)
+#2 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT `Country...', Array, Array)
+#3 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Country...', false)
+#4 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Model\Model.php(2905): DboSource->read(Object(Country), Array)
+#5 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Model\Model.php(2877): Model->_readDataSource('first', Array)
+#6 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Model\Datasource\DboSource.php(597): Model->find('first', Array)
+#7 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Model\Model.php(800): DboSource->query('findById', Array, Object(Country))
+#8 C:\xampp\htdocs\UserLoginLogout\app\Controller\CountryController.php(69): Model->__call('findById', Array)
+#9 C:\xampp\htdocs\UserLoginLogout\app\Controller\CountryController.php(69): Country->findById('2')
+#10 [internal function]: CountryController->edit('2')
+#11 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(CountryController), Array)
+#12 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#13 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(CountryController), Object(CakeRequest))
+#14 C:\xampp\htdocs\UserLoginLogout\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2014-06-04 07:45:43 Error: [MissingControllerException] Controller class UserController could not be found.
+Exception Attributes: array (
+  'class' => 'UserController',
+  'plugin' => NULL,
+)
+Request URL: /UserLoginLogout/user/add
+Stack Trace:
+#0 C:\xampp\htdocs\UserLoginLogout\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-04 08:38:05 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Country.id' in 'where clause'
+Request URL: /UserLoginLogout/country/delete/3
+Stack Trace:
+#0 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT COUNT(*)...', Array)
+#2 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT COUNT(*)...', Array, Array)
+#3 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT COUNT(*)...', false)
+#4 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Model\Model.php(2905): DboSource->read(Object(Country), Array)
+#5 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Model\Model.php(2877): Model->_readDataSource('count', Array)
+#6 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Model\Model.php(2787): Model->find('count', Array)
+#7 C:\xampp\htdocs\UserLoginLogout\app\Controller\CountryController.php(99): Model->exists()
+#8 [internal function]: CountryController->delete('3')
+#9 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(CountryController), Array)
+#10 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#11 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(CountryController), Object(CakeRequest))
+#12 C:\xampp\htdocs\UserLoginLogout\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-06-04 08:45:17 Error: Fatal Error (1): Call to a member function delete() on a non-object in [C:\xampp\htdocs\UserLoginLogout\app\Controller\CountryController.php, line 102]
+2014-06-04 08:45:17 Error: [FatalErrorException] Call to a member function delete() on a non-object
+Request URL: /UserLoginLogout/country/delete/3
+Stack Trace:
+#0 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 102)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 102, Array)
+#2 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\xampp\htdocs...', 102, Array)
+#3 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-06-04 09:31:41 Error: [MissingControllerException] Controller class CountryController could not be found.
+Exception Attributes: array (
+  'class' => 'CountryController',
+  'plugin' => NULL,
+)
+Request URL: /UserLoginLogout/country
+Stack Trace:
+#0 C:\xampp\htdocs\UserLoginLogout\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-04 09:32:30 Error: [MissingModelException] Countries
+Request URL: /UserLoginLogout/countries
+Stack Trace:
+#0 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Controller\Controller.php(1080): PaginatorComponent->paginate('Countries', Array, Array)
+#1 C:\xampp\htdocs\UserLoginLogout\app\Controller\CountriesController.php(20): Controller->paginate('Countries')
+#2 [internal function]: CountriesController->index()
+#3 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(CountriesController), Array)
+#4 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#5 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(CountriesController), Object(CakeRequest))
+#6 C:\xampp\htdocs\UserLoginLogout\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2014-06-04 09:34:03 Error: [MissingModelException] Countries
+Request URL: /UserLoginLogout/countries
+Stack Trace:
+#0 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Controller\Controller.php(1080): PaginatorComponent->paginate('Countries', Array, Array)
+#1 C:\xampp\htdocs\UserLoginLogout\app\Controller\CountriesController.php(21): Controller->paginate('Countries')
+#2 [internal function]: CountriesController->index()
+#3 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(CountriesController), Array)
+#4 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#5 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(CountriesController), Object(CakeRequest))
+#6 C:\xampp\htdocs\UserLoginLogout\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2014-06-04 09:34:51 Error: Fatal Error (4): syntax error, unexpected T_ECHO, expecting T_FUNCTION in [C:\xampp\htdocs\UserLoginLogout\app\Model\Country.php, line 25]
+2014-06-04 09:34:51 Error: [FatalErrorException] syntax error, unexpected T_ECHO, expecting T_FUNCTION
+Request URL: /UserLoginLogout/countries
+Stack Trace:
+#0 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 25)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 25, Array)
+#2 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 25, Array)
+#3 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-06-04 09:35:36 Error: [MissingModelException] Countries
+Request URL: /UserLoginLogout/countries
+Stack Trace:
+#0 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Controller\Controller.php(1080): PaginatorComponent->paginate('Countries', Array, Array)
+#1 C:\xampp\htdocs\UserLoginLogout\app\Controller\CountriesController.php(21): Controller->paginate('Countries')
+#2 [internal function]: CountriesController->index()
+#3 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(CountriesController), Array)
+#4 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#5 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(CountriesController), Object(CakeRequest))
+#6 C:\xampp\htdocs\UserLoginLogout\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2014-06-04 09:36:42 Error: [MissingModelException] Countries
+Request URL: /UserLoginLogout/countries
+Stack Trace:
+#0 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Controller\Controller.php(1080): PaginatorComponent->paginate('Countries', Array, Array)
+#1 C:\xampp\htdocs\UserLoginLogout\app\Controller\CountriesController.php(21): Controller->paginate('Countries')
+#2 [internal function]: CountriesController->index()
+#3 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(CountriesController), Array)
+#4 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#5 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(CountriesController), Object(CakeRequest))
+#6 C:\xampp\htdocs\UserLoginLogout\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2014-06-04 09:41:38 Error: [MissingControllerException] Controller class CountryController could not be found.
+Exception Attributes: array (
+  'class' => 'CountryController',
+  'plugin' => NULL,
+)
+Request URL: /UserLoginLogout/country/add
+Stack Trace:
+#0 C:\xampp\htdocs\UserLoginLogout\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-04 09:52:16 Error: Fatal Error (64): Cannot redeclare class Countries in [C:\xampp\htdocs\UserLoginLogout\app\Model\Country.php, line 72]
+2014-06-04 09:52:16 Error: [FatalErrorException] Cannot redeclare class Countries
+Request URL: /UserLoginLogout/countries
+Stack Trace:
+#0 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'C:\xampp\htdocs...', 72)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'C:\xampp\htdocs...', 72, Array)
+#2 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'C:\xampp\htdocs...', 72, Array)
+#3 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-06-04 09:52:29 Error: Fatal Error (64): Cannot redeclare class Countries in [C:\xampp\htdocs\UserLoginLogout\app\Model\Country.php, line 72]
+2014-06-04 09:52:29 Error: [FatalErrorException] Cannot redeclare class Countries
+Request URL: /UserLoginLogout/countries
+Stack Trace:
+#0 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'C:\xampp\htdocs...', 72)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'C:\xampp\htdocs...', 72, Array)
+#2 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'C:\xampp\htdocs...', 72, Array)
+#3 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-06-04 09:52:56 Error: [MissingModelException] Countries
+Request URL: /UserLoginLogout/countries
+Stack Trace:
+#0 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Controller\Controller.php(1080): PaginatorComponent->paginate('Countries', Array, Array)
+#1 C:\xampp\htdocs\UserLoginLogout\app\Controller\CountriesController.php(21): Controller->paginate('Countries')
+#2 [internal function]: CountriesController->index()
+#3 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(CountriesController), Array)
+#4 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#5 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(CountriesController), Object(CakeRequest))
+#6 C:\xampp\htdocs\UserLoginLogout\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2014-06-04 09:53:13 Error: [MissingModelException] Countries
+Request URL: /UserLoginLogout/countries
+Stack Trace:
+#0 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Controller\Controller.php(1080): PaginatorComponent->paginate('Countries', Array, Array)
+#1 C:\xampp\htdocs\UserLoginLogout\app\Controller\CountriesController.php(21): Controller->paginate('Countries')
+#2 [internal function]: CountriesController->index()
+#3 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(CountriesController), Array)
+#4 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#5 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(CountriesController), Object(CakeRequest))
+#6 C:\xampp\htdocs\UserLoginLogout\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2014-06-04 09:53:36 Error: [MissingModelException] Countries
+Request URL: /UserLoginLogout/countries
+Stack Trace:
+#0 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Controller\Controller.php(1080): PaginatorComponent->paginate('Countries', Array, Array)
+#1 C:\xampp\htdocs\UserLoginLogout\app\Controller\CountriesController.php(21): Controller->paginate('Countries')
+#2 [internal function]: CountriesController->index()
+#3 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(CountriesController), Array)
+#4 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#5 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(CountriesController), Object(CakeRequest))
+#6 C:\xampp\htdocs\UserLoginLogout\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2014-06-04 09:55:45 Error: [MissingModelException] Countries
+Request URL: /UserLoginLogout/countries
+Stack Trace:
+#0 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Controller\Controller.php(1080): PaginatorComponent->paginate('Countries', Array, Array)
+#1 C:\xampp\htdocs\UserLoginLogout\app\Controller\CountriesController.php(21): Controller->paginate('Countries')
+#2 [internal function]: CountriesController->index()
+#3 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(CountriesController), Array)
+#4 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#5 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(CountriesController), Object(CakeRequest))
+#6 C:\xampp\htdocs\UserLoginLogout\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2014-06-04 09:56:07 Error: [MissingModelException] Countries
+Request URL: /UserLoginLogout/countries
+Stack Trace:
+#0 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Controller\Controller.php(1080): PaginatorComponent->paginate('Countries', Array, Array)
+#1 C:\xampp\htdocs\UserLoginLogout\app\Controller\CountriesController.php(21): Controller->paginate('Countries')
+#2 [internal function]: CountriesController->index()
+#3 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(CountriesController), Array)
+#4 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#5 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(CountriesController), Object(CakeRequest))
+#6 C:\xampp\htdocs\UserLoginLogout\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2014-06-04 09:57:17 Error: [MissingModelException] Countries
+Request URL: /UserLoginLogout/countries
+Stack Trace:
+#0 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Controller\Controller.php(1080): PaginatorComponent->paginate('Countries', Array, Array)
+#1 C:\xampp\htdocs\UserLoginLogout\app\Controller\CountriesController.php(21): Controller->paginate('Countries')
+#2 [internal function]: CountriesController->index()
+#3 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(CountriesController), Array)
+#4 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#5 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(CountriesController), Object(CakeRequest))
+#6 C:\xampp\htdocs\UserLoginLogout\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2014-06-04 09:58:36 Error: [MissingModelException] Countries
+Request URL: /UserLoginLogout/countries
+Stack Trace:
+#0 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Controller\Controller.php(1080): PaginatorComponent->paginate('Countries', Array, Array)
+#1 C:\xampp\htdocs\UserLoginLogout\app\Controller\CountriesController.php(21): Controller->paginate('Countries')
+#2 [internal function]: CountriesController->index()
+#3 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(CountriesController), Array)
+#4 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#5 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(CountriesController), Object(CakeRequest))
+#6 C:\xampp\htdocs\UserLoginLogout\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2014-06-04 09:58:53 Error: [MissingModelException] Countries
+Request URL: /UserLoginLogout/countries
+Stack Trace:
+#0 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Controller\Controller.php(1080): PaginatorComponent->paginate('Countries', Array, Array)
+#1 C:\xampp\htdocs\UserLoginLogout\app\Controller\CountriesController.php(21): Controller->paginate('Countries')
+#2 [internal function]: CountriesController->index()
+#3 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(CountriesController), Array)
+#4 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#5 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(CountriesController), Object(CakeRequest))
+#6 C:\xampp\htdocs\UserLoginLogout\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2014-06-04 09:59:57 Error: [MissingModelException] Countries
+Request URL: /UserLoginLogout/countries
+Stack Trace:
+#0 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Controller\Controller.php(1080): PaginatorComponent->paginate('Countries', Array, Array)
+#1 C:\xampp\htdocs\UserLoginLogout\app\Controller\CountriesController.php(20): Controller->paginate('Countries')
+#2 [internal function]: CountriesController->index()
+#3 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(CountriesController), Array)
+#4 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#5 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(CountriesController), Object(CakeRequest))
+#6 C:\xampp\htdocs\UserLoginLogout\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2014-06-04 10:00:31 Error: [MissingModelException] Countries
+Request URL: /UserLoginLogout/countries
+Stack Trace:
+#0 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Controller\Controller.php(1080): PaginatorComponent->paginate('Countries', Array, Array)
+#1 C:\xampp\htdocs\UserLoginLogout\app\Controller\CountriesController.php(20): Controller->paginate('Countries')
+#2 [internal function]: CountriesController->index()
+#3 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(CountriesController), Array)
+#4 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#5 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(CountriesController), Object(CakeRequest))
+#6 C:\xampp\htdocs\UserLoginLogout\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2014-06-04 10:00:46 Error: [MissingModelException] Countries
+Request URL: /UserLoginLogout/countries
+Stack Trace:
+#0 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Controller\Controller.php(1080): PaginatorComponent->paginate('Countries', Array, Array)
+#1 C:\xampp\htdocs\UserLoginLogout\app\Controller\CountriesController.php(20): Controller->paginate('Countries')
+#2 [internal function]: CountriesController->index()
+#3 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(CountriesController), Array)
+#4 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#5 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(CountriesController), Object(CakeRequest))
+#6 C:\xampp\htdocs\UserLoginLogout\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2014-06-04 10:00:55 Error: [MissingModelException] Countries
+Request URL: /UserLoginLogout/countries
+Stack Trace:
+#0 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Controller\Controller.php(1080): PaginatorComponent->paginate('Countries', Array, Array)
+#1 C:\xampp\htdocs\UserLoginLogout\app\Controller\CountriesController.php(20): Controller->paginate('Countries')
+#2 [internal function]: CountriesController->index()
+#3 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(CountriesController), Array)
+#4 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#5 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(CountriesController), Object(CakeRequest))
+#6 C:\xampp\htdocs\UserLoginLogout\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2014-06-04 11:25:16 Error: [MissingControllerException] Controller class CountriesController could not be found.
+Exception Attributes: array (
+  'class' => 'CountriesController',
+  'plugin' => NULL,
+)
+Request URL: /UserLoginLogout/countries
+Stack Trace:
+#0 C:\xampp\htdocs\UserLoginLogout\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-04 11:38:12 Error: [MissingControllerException] Controller class CountryController could not be found.
+Exception Attributes: array (
+  'class' => 'CountryController',
+  'plugin' => NULL,
+)
+Request URL: /UserLoginLogout/country/add
+Stack Trace:
+#0 C:\xampp\htdocs\UserLoginLogout\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-04 12:28:54 Error: Fatal Error (1): Call to undefined method CitiesController::Country() in [C:\xampp\htdocs\UserLoginLogout\app\Controller\CitiesController.php, line 20]
+2014-06-04 12:28:54 Error: [FatalErrorException] Call to undefined method CitiesController::Country()
+Request URL: /UserLoginLogout/Cities
+Stack Trace:
+#0 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'C:\xampp\htdocs...', 20)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'C:\xampp\htdocs...', 20, Array)
+#2 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'C:\xampp\htdocs...', 20, Array)
+#3 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-06-04 12:58:57 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Country.id' in 'field list'
+Request URL: /UserLoginLogout/Cities
+Stack Trace:
+#0 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT `Country...', Array)
+#2 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT `Country...', Array, Array)
+#3 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Country...', false)
+#4 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Model\Model.php(2905): DboSource->read(Object(AppModel), Array)
+#5 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Model\Model.php(2877): Model->_readDataSource('list', Array)
+#6 C:\xampp\htdocs\UserLoginLogout\app\Controller\CitiesController.php(21): Model->find('list', Array)
+#7 [internal function]: CitiesController->index()
+#8 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(CitiesController), Array)
+#9 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(CitiesController), Object(CakeRequest))
+#11 C:\xampp\htdocs\UserLoginLogout\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-06-04 13:32:01 Error: [MissingViewException] View file "C:\xampp\htdocs\UserLoginLogout\app\View\Cities\add.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\xampp\\htdocs\\UserLoginLogout\\app\\View\\Cities\\add.ctp',
+)
+Request URL: /UserLoginLogout/Cities/add
+Stack Trace:
+#0 C:\xampp\htdocs\UserLoginLogout\lib\Cake\View\View.php(468): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#3 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(CitiesController), Object(CakeRequest))
+#4 C:\xampp\htdocs\UserLoginLogout\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-06-04 13:32:17 Error: [MissingViewException] View file "C:\xampp\htdocs\UserLoginLogout\app\View\Cities\add.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\xampp\\htdocs\\UserLoginLogout\\app\\View\\Cities\\add.ctp',
+)
+Request URL: /UserLoginLogout/Cities/add
+Stack Trace:
+#0 C:\xampp\htdocs\UserLoginLogout\lib\Cake\View\View.php(468): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#3 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(CitiesController), Object(CakeRequest))
+#4 C:\xampp\htdocs\UserLoginLogout\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-06-04 13:42:31 Error: Fatal Error (64): Cannot redeclare class Country in [C:\xampp\htdocs\UserLoginLogout\app\Model\City.php, line 53]
+2014-06-04 13:42:31 Error: [FatalErrorException] Cannot redeclare class Country
+Request URL: /UserLoginLogout/Cities
+Stack Trace:
+#0 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'C:\xampp\htdocs...', 53)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'C:\xampp\htdocs...', 53, Array)
+#2 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'C:\xampp\htdocs...', 53, Array)
+#3 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-06-04 13:48:48 Error: [MissingViewException] View file "C:\xampp\htdocs\UserLoginLogout\app\View\Cities\add.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\xampp\\htdocs\\UserLoginLogout\\app\\View\\Cities\\add.ctp',
+)
+Request URL: /UserLoginLogout/cities/add
+Stack Trace:
+#0 C:\xampp\htdocs\UserLoginLogout\lib\Cake\View\View.php(468): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#3 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(CitiesController), Object(CakeRequest))
+#4 C:\xampp\htdocs\UserLoginLogout\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-06-04 13:53:05 Error: [MissingViewException] View file "C:\xampp\htdocs\UserLoginLogout\app\View\Cities\add.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\xampp\\htdocs\\UserLoginLogout\\app\\View\\Cities\\add.ctp',
+)
+Request URL: /UserLoginLogout/cities/add
+Stack Trace:
+#0 C:\xampp\htdocs\UserLoginLogout\lib\Cake\View\View.php(468): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#3 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(CitiesController), Object(CakeRequest))
+#4 C:\xampp\htdocs\UserLoginLogout\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-06-04 13:56:00 Error: [MissingViewException] View file "C:\xampp\htdocs\UserLoginLogout\app\View\Cities\add.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\xampp\\htdocs\\UserLoginLogout\\app\\View\\Cities\\add.ctp',
+)
+Request URL: /UserLoginLogout/cities/add
+Stack Trace:
+#0 C:\xampp\htdocs\UserLoginLogout\lib\Cake\View\View.php(468): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#3 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(CitiesController), Object(CakeRequest))
+#4 C:\xampp\htdocs\UserLoginLogout\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-06-04 14:15:35 Error: [MissingViewException] View file "C:\xampp\htdocs\UserLoginLogout\app\View\Cities\add.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\xampp\\htdocs\\UserLoginLogout\\app\\View\\Cities\\add.ctp',
+)
+Request URL: /UserLoginLogout/cities/add
+Stack Trace:
+#0 C:\xampp\htdocs\UserLoginLogout\lib\Cake\View\View.php(468): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#3 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(CitiesController), Object(CakeRequest))
+#4 C:\xampp\htdocs\UserLoginLogout\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-06-04 14:17:21 Error: [MissingViewException] View file "C:\xampp\htdocs\UserLoginLogout\app\View\Cities\add.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\xampp\\htdocs\\UserLoginLogout\\app\\View\\Cities\\add.ctp',
+)
+Request URL: /UserLoginLogout/cities/add
+Stack Trace:
+#0 C:\xampp\htdocs\UserLoginLogout\lib\Cake\View\View.php(468): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#3 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(CitiesController), Object(CakeRequest))
+#4 C:\xampp\htdocs\UserLoginLogout\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-06-05 07:57:13 Error: Fatal Error (1): Cannot use string offset as an array in [C:\xampp\htdocs\UserLoginLogout\app\View\wishes\index.ctp, line 19]
+2014-06-05 07:57:13 Error: [FatalErrorException] Cannot use string offset as an array
+Request URL: /UserLoginLogout/wishes
+Stack Trace:
+#0 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Cannot use stri...', 'C:\xampp\htdocs...', 19)
+#1 [internal function]: ErrorHandler::handleError(1, 'Cannot use stri...', 'C:\xampp\htdocs...', 19, Array)
+#2 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Cannot use stri...', 'C:\xampp\htdocs...', 19, Array)
+#3 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-06-05 08:36:28 Error: Fatal Error (1): Class 'ClassRergistry' not found in [C:\xampp\htdocs\UserLoginLogout\app\Controller\UsersController.php, line 51]
+2014-06-05 08:36:28 Error: [FatalErrorException] Class 'ClassRergistry' not found
+Request URL: /UserLoginLogout/users/add
+Stack Trace:
+#0 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'ClassRer...', 'C:\xampp\htdocs...', 51)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'ClassRer...', 'C:\xampp\htdocs...', 51, Array)
+#2 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'ClassRer...', 'C:\xampp\htdocs...', 51, Array)
+#3 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-06-05 10:14:40 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1066 Not unique table/alias: 'Country'
+Request URL: /UserLoginLogout/dashboard
+Stack Trace:
+#0 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT `Country...', Array)
+#2 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT `Country...', Array, Array)
+#3 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Model\Datasource\DboSource.php(1444): DboSource->fetchAll('SELECT `Country...', false)
+#4 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Model\Datasource\DboSource.php(1297): DboSource->_fetchHasAndBelongsToMany(Object(User), 'SELECT `Country...', Array, 'Country')
+#5 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Model\Datasource\DboSource.php(1142): DboSource->queryAssociation(Object(User), Object(Country), 'hasAndBelongsTo...', 'Country', Array, Array, true, Array, 0, Array)
+#6 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Model\Model.php(2905): DboSource->read(Object(User), Array)
+#7 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Model\Model.php(2877): Model->_readDataSource('all', Array)
+#8 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Controller\Component\PaginatorComponent.php(196): Model->find('all', Array)
+#9 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Controller\Controller.php(1080): PaginatorComponent->paginate('User', Array, Array)
+#10 C:\xampp\htdocs\UserLoginLogout\app\Controller\UsersController.php(44): Controller->paginate('User')
+#11 [internal function]: UsersController->index()
+#12 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#13 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#14 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#15 C:\xampp\htdocs\UserLoginLogout\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2014-06-05 11:33:16 Error: Fatal Error (64): Cannot redeclare User::$belongsTo in [C:\xampp\htdocs\UserLoginLogout\app\Model\User.php, line 208]
+2014-06-05 11:33:16 Error: [FatalErrorException] Cannot redeclare User::$belongsTo
+Request URL: /UserLoginLogout/dashboard
+Stack Trace:
+#0 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'C:\xampp\htdocs...', 208)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'C:\xampp\htdocs...', 208, Array)
+#2 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'C:\xampp\htdocs...', 208, Array)
+#3 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-06-05 11:38:57 Error: Fatal Error (64): Cannot redeclare User::$belongsTo in [C:\xampp\htdocs\UserLoginLogout\app\Model\User.php, line 216]
+2014-06-05 11:38:57 Error: [FatalErrorException] Cannot redeclare User::$belongsTo
+Request URL: /UserLoginLogout/users/add
+Stack Trace:
+#0 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'C:\xampp\htdocs...', 216)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'C:\xampp\htdocs...', 216, Array)
+#2 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'C:\xampp\htdocs...', 216, Array)
+#3 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-06-05 12:22:08 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Wish.id' in 'field list'
+Request URL: /UserLoginLogout/users/add
+Stack Trace:
+#0 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT `Wish`.`...', Array)
+#2 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT `Wish`.`...', Array, Array)
+#3 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Wish`.`...', false)
+#4 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Model\Model.php(2905): DboSource->read(Object(AppModel), Array)
+#5 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Model\Model.php(2877): Model->_readDataSource('list', Array)
+#6 C:\xampp\htdocs\UserLoginLogout\app\Controller\UsersController.php(53): Model->find('list', Array)
+#7 [internal function]: UsersController->add()
+#8 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#9 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#11 C:\xampp\htdocs\UserLoginLogout\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-06-05 13:58:33 Error: Fatal Error (64): Cannot redeclare Country::$hasMany in [C:\xampp\htdocs\UserLoginLogout\app\Model\Country.php, line 62]
+2014-06-05 13:58:33 Error: [FatalErrorException] Cannot redeclare Country::$hasMany
+Request URL: /UserLoginLogout/users/add
+Stack Trace:
+#0 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'C:\xampp\htdocs...', 62)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'C:\xampp\htdocs...', 62, Array)
+#2 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'C:\xampp\htdocs...', 62, Array)
+#3 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-06-05 14:00:04 Error: Fatal Error (64): Cannot redeclare Country::$hasMany in [C:\xampp\htdocs\UserLoginLogout\app\Model\Country.php, line 62]
+2014-06-05 14:00:04 Error: [FatalErrorException] Cannot redeclare Country::$hasMany
+Request URL: /UserLoginLogout/users/add
+Stack Trace:
+#0 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'C:\xampp\htdocs...', 62)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'C:\xampp\htdocs...', 62, Array)
+#2 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'C:\xampp\htdocs...', 62, Array)
+#3 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-06-05 14:00:14 Error: Fatal Error (64): Cannot redeclare Country::$hasMany in [C:\xampp\htdocs\UserLoginLogout\app\Model\Country.php, line 62]
+2014-06-05 14:00:14 Error: [FatalErrorException] Cannot redeclare Country::$hasMany
+Request URL: /UserLoginLogout/users/add
+Stack Trace:
+#0 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'C:\xampp\htdocs...', 62)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'C:\xampp\htdocs...', 62, Array)
+#2 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'C:\xampp\htdocs...', 62, Array)
+#3 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-06-05 14:00:26 Error: Fatal Error (64): Cannot redeclare Country::$hasMany in [C:\xampp\htdocs\UserLoginLogout\app\Model\Country.php, line 62]
+2014-06-05 14:00:26 Error: [FatalErrorException] Cannot redeclare Country::$hasMany
+Request URL: /UserLoginLogout/users/add
+Stack Trace:
+#0 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'C:\xampp\htdocs...', 62)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'C:\xampp\htdocs...', 62, Array)
+#2 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'C:\xampp\htdocs...', 62, Array)
+#3 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-06-05 14:02:48 Error: Fatal Error (64): Cannot redeclare Country::$hasMany in [C:\xampp\htdocs\UserLoginLogout\app\Model\Country.php, line 62]
+2014-06-05 14:02:48 Error: [FatalErrorException] Cannot redeclare Country::$hasMany
+Request URL: /UserLoginLogout/users/add
+Stack Trace:
+#0 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'C:\xampp\htdocs...', 62)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'C:\xampp\htdocs...', 62, Array)
+#2 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'C:\xampp\htdocs...', 62, Array)
+#3 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-06-06 06:42:22 Error: [MissingActionException] Action UsersController::UsersController() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'UsersController',
+)
+Request URL: /UserLoginLogout/users/UsersController/getCitiesList2
+Stack Trace:
+#0 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\UserLoginLogout\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-06-06 06:49:44 Error: [MissingActionException] Action UsersController::getCitiesList() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'getCitiesList',
+)
+Request URL: /UserLoginLogout/users/getCitiesList/2
+Stack Trace:
+#0 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\UserLoginLogout\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-06-06 08:57:09 Error: Fatal Error (1): Call to undefined method UsersController::find() in [C:\xampp\htdocs\UserLoginLogout\app\Controller\UsersController.php, line 76]
+2014-06-06 08:57:09 Error: [FatalErrorException] Call to undefined method UsersController::find()
+Request URL: /UserLoginLogout/Users/add/1
+Stack Trace:
+#0 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'C:\xampp\htdocs...', 76)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'C:\xampp\htdocs...', 76, Array)
+#2 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'C:\xampp\htdocs...', 76, Array)
+#3 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-06-06 08:59:12 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'User.1' in 'field list'
+Request URL: /UserLoginLogout/Users/add/1
+Stack Trace:
+#0 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT `User`.`...', Array)
+#2 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT `User`.`...', Array, Array)
+#3 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `User`.`...', false)
+#4 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Model\Model.php(2905): DboSource->read(Object(User), Array)
+#5 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Model\Model.php(2877): Model->_readDataSource('all', Array)
+#6 C:\xampp\htdocs\UserLoginLogout\app\Controller\UsersController.php(76): Model->find('all', Array)
+#7 [internal function]: UsersController->add('1')
+#8 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#9 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#11 C:\xampp\htdocs\UserLoginLogout\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-06-06 09:00:42 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'User.1' in 'field list'
+Request URL: /UserLoginLogout/Users/add/1
+Stack Trace:
+#0 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT `User`.`...', Array)
+#2 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT `User`.`...', Array, Array)
+#3 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `User`.`...', false)
+#4 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Model\Model.php(2905): DboSource->read(Object(User), Array)
+#5 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Model\Model.php(2877): Model->_readDataSource('all', Array)
+#6 C:\xampp\htdocs\UserLoginLogout\app\Controller\UsersController.php(76): Model->find('all', Array)
+#7 [internal function]: UsersController->add('1')
+#8 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#9 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#11 C:\xampp\htdocs\UserLoginLogout\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-06-06 09:04:41 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'User.country_id' in 'where clause'
+Request URL: /UserLoginLogout/Users/add/1
+Stack Trace:
+#0 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT `City`.`...', Array)
+#2 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT `City`.`...', Array, Array)
+#3 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `City`.`...', false)
+#4 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Model\Model.php(2905): DboSource->read(Object(City), Array)
+#5 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Model\Model.php(2877): Model->_readDataSource('all', Array)
+#6 C:\xampp\htdocs\UserLoginLogout\app\Controller\UsersController.php(77): Model->find('all', Array)
+#7 [internal function]: UsersController->add('1')
+#8 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#9 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#11 C:\xampp\htdocs\UserLoginLogout\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-06-06 09:05:27 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'User.country_id' in 'where clause'
+Request URL: /UserLoginLogout/Users/add/1
+Stack Trace:
+#0 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT `City`.`...', Array)
+#2 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT `City`.`...', Array, Array)
+#3 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `City`.`...', false)
+#4 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Model\Model.php(2905): DboSource->read(Object(City), Array)
+#5 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Model\Model.php(2877): Model->_readDataSource('all', Array)
+#6 C:\xampp\htdocs\UserLoginLogout\app\Controller\UsersController.php(77): Model->find('all', Array)
+#7 [internal function]: UsersController->add('1')
+#8 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#9 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#11 C:\xampp\htdocs\UserLoginLogout\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-06-06 09:11:16 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\xampp\htdocs\UserLoginLogout\app\Controller\UsersController.php, line 77]
+2014-06-06 09:11:16 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /UserLoginLogout/Users/add/1
+Stack Trace:
+#0 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 77)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 77, Array)
+#2 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\xampp\htdocs...', 77, Array)
+#3 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-06-06 09:19:16 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '== 'City.country_id'' at line 1
+Request URL: /UserLoginLogout/Users/add/1
+Stack Trace:
+#0 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT `City`.`...', Array)
+#2 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT `City`.`...', Array, Array)
+#3 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `City`.`...', false)
+#4 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Model\Model.php(2905): DboSource->read(Object(User), Array)
+#5 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Model\Model.php(2877): Model->_readDataSource('all', Array)
+#6 C:\xampp\htdocs\UserLoginLogout\app\Controller\UsersController.php(79): Model->find('all', Array)
+#7 [internal function]: UsersController->add('1')
+#8 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#9 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#11 C:\xampp\htdocs\UserLoginLogout\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-06-06 09:22:48 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\xampp\htdocs\UserLoginLogout\app\Controller\UsersController.php, line 79]
+2014-06-06 09:22:48 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /UserLoginLogout/Users/add/1
+Stack Trace:
+#0 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 79)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 79, Array)
+#2 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\xampp\htdocs...', 79, Array)
+#3 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-06-06 09:28:44 Error: [MissingModelException] User
+Request URL: /UserLoginLogout/Users
+Stack Trace:
+#0 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Controller\Controller.php(1080): PaginatorComponent->paginate('User', Array, Array)
+#1 C:\xampp\htdocs\UserLoginLogout\app\Controller\UsersController.php(47): Controller->paginate('User')
+#2 [internal function]: UsersController->index()
+#3 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#4 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#5 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#6 C:\xampp\htdocs\UserLoginLogout\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2014-06-06 09:29:32 Error: [MissingModelException] User
+Request URL: /UserLoginLogout/Users
+Stack Trace:
+#0 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Controller\Controller.php(1080): PaginatorComponent->paginate('User', Array, Array)
+#1 C:\xampp\htdocs\UserLoginLogout\app\Controller\UsersController.php(47): Controller->paginate('User')
+#2 [internal function]: UsersController->index()
+#3 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#4 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#5 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#6 C:\xampp\htdocs\UserLoginLogout\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2014-06-06 09:29:48 Error: [MissingModelException] User
+Request URL: /UserLoginLogout/dashboard
+Stack Trace:
+#0 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Controller\Controller.php(1080): PaginatorComponent->paginate('User', Array, Array)
+#1 C:\xampp\htdocs\UserLoginLogout\app\Controller\UsersController.php(47): Controller->paginate('User')
+#2 [internal function]: UsersController->index()
+#3 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#4 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#5 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#6 C:\xampp\htdocs\UserLoginLogout\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2014-06-06 12:07:45 Error: [MissingHelperException] Helper class AjaxHelper could not be found.
+Exception Attributes: array (
+  'class' => 'AjaxHelper',
+  'plugin' => false,
+)
+Request URL: /UserLoginLogout/Users/add/13
+Stack Trace:
+#0 C:\xampp\htdocs\UserLoginLogout\lib\Cake\View\View.php(886): HelperCollection->load('Ajax', Array)
+#1 C:\xampp\htdocs\UserLoginLogout\lib\Cake\View\View.php(354): View->loadHelpers()
+#2 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Controller\Controller.php(1241): View->__construct(Object(UsersController))
+#3 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Controller\Controller.php(940): Controller->_getViewObject()
+#4 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#5 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#6 C:\xampp\htdocs\UserLoginLogout\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2014-06-06 12:09:12 Error: Fatal Error (4): syntax error, unexpected T_ECHO, expecting T_FUNCTION in [C:\xampp\htdocs\UserLoginLogout\app\Controller\UsersController.php, line 8]
+2014-06-06 12:09:12 Error: [FatalErrorException] syntax error, unexpected T_ECHO, expecting T_FUNCTION
+Request URL: /UserLoginLogout/Users/add/13
+Stack Trace:
+#0 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 8)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 8, Array)
+#2 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 8, Array)
+#3 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-06-06 12:09:22 Error: Fatal Error (4): syntax error, unexpected T_ECHO, expecting T_FUNCTION in [C:\xampp\htdocs\UserLoginLogout\app\Controller\UsersController.php, line 8]
+2014-06-06 12:09:22 Error: [FatalErrorException] syntax error, unexpected T_ECHO, expecting T_FUNCTION
+Request URL: /UserLoginLogout/Users/add
+Stack Trace:
+#0 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 8)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 8, Array)
+#2 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 8, Array)
+#3 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-06-06 12:10:53 Error: [MissingHelperException] Helper class AjaxHelper could not be found.
+Exception Attributes: array (
+  'class' => 'AjaxHelper',
+  'plugin' => false,
+)
+Request URL: /UserLoginLogout/Users/add
+Stack Trace:
+#0 C:\xampp\htdocs\UserLoginLogout\lib\Cake\View\View.php(886): HelperCollection->load('Ajax', Array)
+#1 C:\xampp\htdocs\UserLoginLogout\lib\Cake\View\View.php(354): View->loadHelpers()
+#2 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Controller\Controller.php(1241): View->__construct(Object(UsersController))
+#3 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Controller\Controller.php(940): Controller->_getViewObject()
+#4 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#5 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#6 C:\xampp\htdocs\UserLoginLogout\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2014-06-06 12:12:05 Error: [MissingHelperException] Helper class AjaxHelper could not be found.
+Exception Attributes: array (
+  'class' => 'AjaxHelper',
+  'plugin' => false,
+)
+Request URL: /UserLoginLogout/Users/add
+Stack Trace:
+#0 C:\xampp\htdocs\UserLoginLogout\lib\Cake\View\View.php(886): HelperCollection->load('Ajax', Array)
+#1 C:\xampp\htdocs\UserLoginLogout\lib\Cake\View\View.php(354): View->loadHelpers()
+#2 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Controller\Controller.php(1241): View->__construct(Object(UsersController))
+#3 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Controller\Controller.php(940): Controller->_getViewObject()
+#4 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#5 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#6 C:\xampp\htdocs\UserLoginLogout\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2014-06-06 12:15:34 Error: [MissingHelperException] Helper class CustomHelperHelper could not be found.
+Exception Attributes: array (
+  'class' => 'CustomHelperHelper',
+  'plugin' => false,
+)
+Request URL: /UserLoginLogout/Users/add
+Stack Trace:
+#0 C:\xampp\htdocs\UserLoginLogout\lib\Cake\View\View.php(886): HelperCollection->load('CustomHelper', Array)
+#1 C:\xampp\htdocs\UserLoginLogout\lib\Cake\View\View.php(354): View->loadHelpers()
+#2 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Controller\Controller.php(1241): View->__construct(Object(UsersController))
+#3 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Controller\Controller.php(940): Controller->_getViewObject()
+#4 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#5 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#6 C:\xampp\htdocs\UserLoginLogout\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2014-06-06 12:58:14 Error: [MissingActionException] Action UsersController::get_city_ajax() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'get_city_ajax',
+)
+Request URL: /UserLoginLogout/Users/get_city_ajax
+Stack Trace:
+#0 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\UserLoginLogout\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-06-06 13:05:14 Error: [MissingControllerException] Controller class UsersControllerController could not be found.
+Exception Attributes: array (
+  'class' => 'UsersControllerController',
+  'plugin' => NULL,
+)
+Request URL: /UserLoginLogout/UsersController/get_city_ajax_list/1
+Stack Trace:
+#0 C:\xampp\htdocs\UserLoginLogout\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-06 13:06:06 Error: [MissingControllerException] Controller class UsersControllerController could not be found.
+Exception Attributes: array (
+  'class' => 'UsersControllerController',
+  'plugin' => NULL,
+)
+Request URL: /UserLoginLogout/UsersController/get_city_ajax_list/2
+Stack Trace:
+#0 C:\xampp\htdocs\UserLoginLogout\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-06 13:07:01 Error: [MissingControllerException] Controller class UsersControllerController could not be found.
+Exception Attributes: array (
+  'class' => 'UsersControllerController',
+  'plugin' => NULL,
+)
+Request URL: /UserLoginLogout/UsersController/get_city_ajax_list/1
+Stack Trace:
+#0 C:\xampp\htdocs\UserLoginLogout\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-06 13:46:57 Error: [MissingHelperException] Helper class JavascriptHelper could not be found.
+Exception Attributes: array (
+  'class' => 'JavascriptHelper',
+  'plugin' => false,
+)
+Request URL: /UserLoginLogout/Users/add
+Stack Trace:
+#0 C:\xampp\htdocs\UserLoginLogout\lib\Cake\View\View.php(886): HelperCollection->load('Javascript', Array)
+#1 C:\xampp\htdocs\UserLoginLogout\lib\Cake\View\View.php(354): View->loadHelpers()
+#2 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Controller\Controller.php(1241): View->__construct(Object(UsersController))
+#3 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Controller\Controller.php(940): Controller->_getViewObject()
+#4 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#5 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#6 C:\xampp\htdocs\UserLoginLogout\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2014-06-06 14:00:38 Error: [MissingActionException] Action UsersController::users() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'users',
+)
+Request URL: /UserLoginLogout/Users/users/get_city_ajax_list/1
+Stack Trace:
+#0 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\UserLoginLogout\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-06-11 11:15:54 Error: [MissingControllerException] Controller class GetCityAjaxListController could not be found.
+Exception Attributes: array (
+  'class' => 'GetCityAjaxListController',
+  'plugin' => NULL,
+)
+Request URL: /UserLoginLogout/get_city_ajax_list/1
+Stack Trace:
+#0 C:\xampp\htdocs\UserLoginLogout\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-11 11:16:21 Error: [MissingActionException] Action UsersController::get_city_ajax_list() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'get_city_ajax_list',
+)
+Request URL: /UserLoginLogout/users/get_city_ajax_list/1
+Stack Trace:
+#0 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\UserLoginLogout\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-06-11 11:17:31 Error: [MissingActionException] Action UsersController::get_city_ajax_list() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'get_city_ajax_list',
+)
+Request URL: /UserLoginLogout/users/get_city_ajax_list/1
+Stack Trace:
+#0 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\UserLoginLogout\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-06-11 11:18:29 Error: [MissingActionException] Action UsersController::get_city_ajax_list() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'get_city_ajax_list',
+)
+Request URL: /UserLoginLogout/users/get_city_ajax_list/1
+Stack Trace:
+#0 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\UserLoginLogout\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-06-11 11:18:57 Error: [MissingActionException] Action UsersController::get_city_ajax_list() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'get_city_ajax_list',
+)
+Request URL: /UserLoginLogout/users/get_city_ajax_list/1
+Stack Trace:
+#0 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\UserLoginLogout\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-06-11 11:25:51 Error: [MissingViewException] View file "C:\xampp\htdocs\UserLoginLogout\app\View\Users\getcityajaxlist.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\xampp\\htdocs\\UserLoginLogout\\app\\View\\Users\\getcityajaxlist.ctp',
+)
+Request URL: /UserLoginLogout/users/getcityajaxlist/13
+Stack Trace:
+#0 C:\xampp\htdocs\UserLoginLogout\lib\Cake\View\View.php(468): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#3 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 C:\xampp\htdocs\UserLoginLogout\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-06-11 11:26:30 Error: [MissingViewException] View file "C:\xampp\htdocs\UserLoginLogout\app\View\Users\getcityajaxlist.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\xampp\\htdocs\\UserLoginLogout\\app\\View\\Users\\getcityajaxlist.ctp',
+)
+Request URL: /UserLoginLogout/users/getcityajaxlist/1
+Stack Trace:
+#0 C:\xampp\htdocs\UserLoginLogout\lib\Cake\View\View.php(468): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#3 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 C:\xampp\htdocs\UserLoginLogout\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-06-11 11:26:49 Error: [MissingViewException] View file "C:\xampp\htdocs\UserLoginLogout\app\View\Users\getcityajaxlist.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\xampp\\htdocs\\UserLoginLogout\\app\\View\\Users\\getcityajaxlist.ctp',
+)
+Request URL: /UserLoginLogout/users/getcityajaxlist/2
+Stack Trace:
+#0 C:\xampp\htdocs\UserLoginLogout\lib\Cake\View\View.php(468): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#3 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 C:\xampp\htdocs\UserLoginLogout\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-06-11 11:26:57 Error: [MissingViewException] View file "C:\xampp\htdocs\UserLoginLogout\app\View\Users\getcityajaxlist.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\xampp\\htdocs\\UserLoginLogout\\app\\View\\Users\\getcityajaxlist.ctp',
+)
+Request URL: /UserLoginLogout/users/getcityajaxlist/8
+Stack Trace:
+#0 C:\xampp\htdocs\UserLoginLogout\lib\Cake\View\View.php(468): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#3 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 C:\xampp\htdocs\UserLoginLogout\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-06-11 11:27:16 Error: [MissingViewException] View file "C:\xampp\htdocs\UserLoginLogout\app\View\Users\getcityajaxlist.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\xampp\\htdocs\\UserLoginLogout\\app\\View\\Users\\getcityajaxlist.ctp',
+)
+Request URL: /UserLoginLogout/users/getcityajaxlist/2
+Stack Trace:
+#0 C:\xampp\htdocs\UserLoginLogout\lib\Cake\View\View.php(468): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#3 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 C:\xampp\htdocs\UserLoginLogout\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-06-11 11:28:40 Error: [MissingViewException] View file "C:\xampp\htdocs\UserLoginLogout\app\View\Users\getcityajaxlist.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\xampp\\htdocs\\UserLoginLogout\\app\\View\\Users\\getcityajaxlist.ctp',
+)
+Request URL: /UserLoginLogout/users/getcityajaxlist/1
+Stack Trace:
+#0 C:\xampp\htdocs\UserLoginLogout\lib\Cake\View\View.php(468): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#3 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 C:\xampp\htdocs\UserLoginLogout\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-06-11 11:32:08 Error: [MissingViewException] View file "C:\xampp\htdocs\UserLoginLogout\app\View\Users\getcityajaxlist.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\xampp\\htdocs\\UserLoginLogout\\app\\View\\Users\\getcityajaxlist.ctp',
+)
+Request URL: /UserLoginLogout/users/getcityajaxlist/8
+Stack Trace:
+#0 C:\xampp\htdocs\UserLoginLogout\lib\Cake\View\View.php(468): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#3 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 C:\xampp\htdocs\UserLoginLogout\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-06-11 11:32:53 Error: [MissingViewException] View file "C:\xampp\htdocs\UserLoginLogout\app\View\Users\getcityajaxlist.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\xampp\\htdocs\\UserLoginLogout\\app\\View\\Users\\getcityajaxlist.ctp',
+)
+Request URL: /UserLoginLogout/users/getcityajaxlist/2
+Stack Trace:
+#0 C:\xampp\htdocs\UserLoginLogout\lib\Cake\View\View.php(468): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#3 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 C:\xampp\htdocs\UserLoginLogout\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-06-11 12:59:39 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /UserLoginLogout/css/uploadifive-cancel.png
+Stack Trace:
+#0 C:\xampp\htdocs\UserLoginLogout\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-11 12:59:39 Error: [MissingActionException] Action UsersController::uploadifive.php() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'uploadifive.php',
+)
+Request URL: /UserLoginLogout/users/uploadifive.php
+Stack Trace:
+#0 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\UserLoginLogout\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-06-11 13:04:16 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /UserLoginLogout/css/uploadifive-cancel.png
+Stack Trace:
+#0 C:\xampp\htdocs\UserLoginLogout\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-11 13:04:16 Error: [MissingViewException] View file "C:\xampp\htdocs\UserLoginLogout\app\View\Users\image_name_exist.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\xampp\\htdocs\\UserLoginLogout\\app\\View\\Users\\image_name_exist.ctp',
+)
+Request URL: /UserLoginLogout/users/imageNameExist
+Stack Trace:
+#0 C:\xampp\htdocs\UserLoginLogout\lib\Cake\View\View.php(468): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#3 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 C:\xampp\htdocs\UserLoginLogout\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-06-11 13:08:50 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /UserLoginLogout/css/uploadifive-cancel.png
+Stack Trace:
+#0 C:\xampp\htdocs\UserLoginLogout\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-11 13:13:14 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /UserLoginLogout/css/uploadifive-cancel.png
+Stack Trace:
+#0 C:\xampp\htdocs\UserLoginLogout\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-11 13:13:14 Error: [MissingViewException] View file "C:\xampp\htdocs\UserLoginLogout\app\View\Users\image_name_exist.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\xampp\\htdocs\\UserLoginLogout\\app\\View\\Users\\image_name_exist.ctp',
+)
+Request URL: /UserLoginLogout/users/imageNameExist
+Stack Trace:
+#0 C:\xampp\htdocs\UserLoginLogout\lib\Cake\View\View.php(468): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#3 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 C:\xampp\htdocs\UserLoginLogout\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-06-11 13:18:38 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /UserLoginLogout/css/uploadifive-cancel.png
+Stack Trace:
+#0 C:\xampp\htdocs\UserLoginLogout\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-11 13:18:38 Error: [MissingViewException] View file "C:\xampp\htdocs\UserLoginLogout\app\View\Users\image_name_exist.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\xampp\\htdocs\\UserLoginLogout\\app\\View\\Users\\image_name_exist.ctp',
+)
+Request URL: /UserLoginLogout/users/imageNameExist
+Stack Trace:
+#0 C:\xampp\htdocs\UserLoginLogout\lib\Cake\View\View.php(468): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#3 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 C:\xampp\htdocs\UserLoginLogout\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-06-11 13:21:33 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /UserLoginLogout/css/uploadifive-cancel.png
+Stack Trace:
+#0 C:\xampp\htdocs\UserLoginLogout\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-11 13:22:47 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /UserLoginLogout/css/uploadifive-cancel.png
+Stack Trace:
+#0 C:\xampp\htdocs\UserLoginLogout\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-11 13:22:47 Error: [MissingViewException] View file "C:\xampp\htdocs\UserLoginLogout\app\View\Users\uploadifive.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\xampp\\htdocs\\UserLoginLogout\\app\\View\\Users\\uploadifive.ctp',
+)
+Request URL: /UserLoginLogout/users/uploadifive
+Stack Trace:
+#0 C:\xampp\htdocs\UserLoginLogout\lib\Cake\View\View.php(468): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#3 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 C:\xampp\htdocs\UserLoginLogout\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-06-11 13:23:31 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /UserLoginLogout/css/uploadifive-cancel.png
+Stack Trace:
+#0 C:\xampp\htdocs\UserLoginLogout\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-11 13:25:40 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /UserLoginLogout/css/uploadifive-cancel.png
+Stack Trace:
+#0 C:\xampp\htdocs\UserLoginLogout\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-11 13:25:42 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /UserLoginLogout/css/uploadifive-cancel.png
+Stack Trace:
+#0 C:\xampp\htdocs\UserLoginLogout\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-11 13:58:10 Error: [MissingActionException] Action UsersController::AaSfondi-desktop-HD-gratis-per-pc-Hulk.jpg() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'AaSfondi-desktop-HD-gratis-per-pc-Hulk.jpg',
+)
+Request URL: /UserLoginLogout/users/AaSfondi-desktop-HD-gratis-per-pc-Hulk.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\UserLoginLogout\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-06-11 13:58:14 Error: [MissingActionException] Action UsersController::AaSfondi-desktop-HD-gratis-per-pc-Hulk.jpg() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'AaSfondi-desktop-HD-gratis-per-pc-Hulk.jpg',
+)
+Request URL: /UserLoginLogout/users/AaSfondi-desktop-HD-gratis-per-pc-Hulk.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\UserLoginLogout\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-06-11 13:58:46 Error: [MissingControllerException] Controller class UploadsController could not be found.
+Exception Attributes: array (
+  'class' => 'UploadsController',
+  'plugin' => NULL,
+)
+Request URL: /UserLoginLogout/uploads/AaSfondi-desktop-HD-gratis-per-pc-Hulk.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\UserLoginLogout\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-11 13:59:54 Error: [MissingControllerException] Controller class UploadsController could not be found.
+Exception Attributes: array (
+  'class' => 'UploadsController',
+  'plugin' => NULL,
+)
+Request URL: /UserLoginLogout/uploads/AaSfondi-desktop-HD-gratis-per-pc-Hulk.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\UserLoginLogout\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-11 13:59:58 Error: [MissingControllerException] Controller class UploadsController could not be found.
+Exception Attributes: array (
+  'class' => 'UploadsController',
+  'plugin' => NULL,
+)
+Request URL: /UserLoginLogout/uploads/AaSfondi-desktop-HD-gratis-per-pc-Hulk.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\UserLoginLogout\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-11 14:08:53 Error: [MissingControllerException] Controller class ..uploadsController could not be found.
+Exception Attributes: array (
+  'class' => '..uploadsController',
+  'plugin' => NULL,
+)
+Request URL: /UserLoginLogout/..uploads/AaSfondi-desktop-HD-gratis-per-pc-Hulk.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\UserLoginLogout\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-11 14:08:54 Error: [MissingControllerException] Controller class .uploadsController could not be found.
+Exception Attributes: array (
+  'class' => '.uploadsController',
+  'plugin' => NULL,
+)
+Request URL: /UserLoginLogout/.uploads/AaSfondi-desktop-HD-gratis-per-pc-Hulk.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\UserLoginLogout\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-11 14:08:59 Error: [MissingControllerException] Controller class UploadsController could not be found.
+Exception Attributes: array (
+  'class' => 'UploadsController',
+  'plugin' => NULL,
+)
+Request URL: /UserLoginLogout/uploads/AaSfondi-desktop-HD-gratis-per-pc-Hulk.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\UserLoginLogout\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-11 14:08:59 Error: [MissingActionException] Action UsersController::..uploads() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => '..uploads',
+)
+Request URL: /UserLoginLogout/users/..uploads/AaSfondi-desktop-HD-gratis-per-pc-Hulk.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\UserLoginLogout\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-06-11 14:09:00 Error: [MissingActionException] Action UsersController::.uploads() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => '.uploads',
+)
+Request URL: /UserLoginLogout/users/.uploads/AaSfondi-desktop-HD-gratis-per-pc-Hulk.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\UserLoginLogout\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-06-11 14:09:00 Error: [MissingActionException] Action UsersController::uploads() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'uploads',
+)
+Request URL: /UserLoginLogout/users/uploads/AaSfondi-desktop-HD-gratis-per-pc-Hulk.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\UserLoginLogout\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-06-11 14:09:03 Error: [MissingActionException] Action UsersController::uploads() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'uploads',
+)
+Request URL: /UserLoginLogout/users/uploads/AaSfondi-desktop-HD-gratis-per-pc-Hulk.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\UserLoginLogout\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-06-11 14:09:13 Error: [MissingActionException] Action UsersController::uploads() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'uploads',
+)
+Request URL: /UserLoginLogout/users/uploads/AaSfondi-desktop-HD-gratis-per-pc-Hulk.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\UserLoginLogout\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-06-11 14:10:17 Error: [MissingActionException] Action UsersController::uploads() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'uploads',
+)
+Request URL: /UserLoginLogout/users/uploads/AaSfondi-desktop-HD-gratis-per-pc-Hulk.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\UserLoginLogout\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-06-11 14:10:19 Error: [MissingControllerException] Controller class UploadsController could not be found.
+Exception Attributes: array (
+  'class' => 'UploadsController',
+  'plugin' => NULL,
+)
+Request URL: /UserLoginLogout/uploads/AaSfondi-desktop-HD-gratis-per-pc-Hulk.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\UserLoginLogout\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-11 14:10:21 Error: [MissingControllerException] Controller class UploadsController could not be found.
+Exception Attributes: array (
+  'class' => 'UploadsController',
+  'plugin' => NULL,
+)
+Request URL: /UserLoginLogout/uploads/AaSfondi-desktop-HD-gratis-per-pc-Hulk.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\UserLoginLogout\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-11 14:28:34 Error: [MissingActionException] Action UsersController::.uploads() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => '.uploads',
+)
+Request URL: /UserLoginLogout/users/.uploads/AaSfondi-desktop-HD-gratis-per-pc-Hulk.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\UserLoginLogout\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-06-11 14:28:35 Error: [MissingActionException] Action UsersController::uploads() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'uploads',
+)
+Request URL: /UserLoginLogout/users/uploads/AaSfondi-desktop-HD-gratis-per-pc-Hulk.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\UserLoginLogout\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-06-11 14:28:39 Error: [MissingActionException] Action UsersController::uploads() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'uploads',
+)
+Request URL: /UserLoginLogout/users/uploads/AaSfondi-desktop-HD-gratis-per-pc-Hulk.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\UserLoginLogout\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\UserLoginLogout\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-06-11 14:29:45 Error: [MissingControllerException] Controller class UploadsController could not be found.
+Exception Attributes: array (
+  'class' => 'UploadsController',
+  'plugin' => NULL,
+)
+Request URL: /UserLoginLogout/uploads/AaSfondi-desktop-HD-gratis-per-pc-Hulk.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\UserLoginLogout\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-11 14:35:25 Error: [MissingControllerException] Controller class UploadsController could not be found.
+Exception Attributes: array (
+  'class' => 'UploadsController',
+  'plugin' => NULL,
+)
+Request URL: /UserLoginLogout/uploads/AaSfondi-desktop-HD-gratis-per-pc-Hulk.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\UserLoginLogout\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-11 14:35:29 Error: [MissingControllerException] Controller class UploadsController could not be found.
+Exception Attributes: array (
+  'class' => 'UploadsController',
+  'plugin' => NULL,
+)
+Request URL: /UserLoginLogout/uploads/AaSfondi-desktop-HD-gratis-per-pc-Hulk.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\UserLoginLogout\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-11 14:36:58 Error: [MissingControllerException] Controller class UploadsController could not be found.
+Exception Attributes: array (
+  'class' => 'UploadsController',
+  'plugin' => NULL,
+)
+Request URL: /UserLoginLogout/uploads/AaSfondi-desktop-HD-gratis-per-pc-Hulk.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\UserLoginLogout\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-11 14:37:03 Error: [MissingControllerException] Controller class UploadsController could not be found.
+Exception Attributes: array (
+  'class' => 'UploadsController',
+  'plugin' => NULL,
+)
+Request URL: /UserLoginLogout/uploads/AaSfondi-desktop-HD-gratis-per-pc-Hulk.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\UserLoginLogout\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-11 14:39:31 Error: [MissingControllerException] Controller class UploadsController could not be found.
+Exception Attributes: array (
+  'class' => 'UploadsController',
+  'plugin' => NULL,
+)
+Request URL: /UserLoginLogout/uploads/AaSfondi-desktop-HD-gratis-per-pc-Hulk.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\UserLoginLogout\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-11 14:39:43 Error: [MissingControllerException] Controller class UploadsController could not be found.
+Exception Attributes: array (
+  'class' => 'UploadsController',
+  'plugin' => NULL,
+)
+Request URL: /UserLoginLogout/uploads/AaSfondi-desktop-HD-gratis-per-pc-Hulk.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\UserLoginLogout\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-11 14:39:55 Error: [MissingControllerException] Controller class UploadsController could not be found.
+Exception Attributes: array (
+  'class' => 'UploadsController',
+  'plugin' => NULL,
+)
+Request URL: /UserLoginLogout/uploads/AaSfondi-desktop-HD-gratis-per-pc-Hulk.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\UserLoginLogout\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-11 14:46:31 Error: [MissingControllerException] Controller class UploadsController could not be found.
+Exception Attributes: array (
+  'class' => 'UploadsController',
+  'plugin' => NULL,
+)
+Request URL: /UserLoginLogout/uploads/AaSfondi-desktop-HD-gratis-per-pc-Hulk.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\UserLoginLogout\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-11 14:46:38 Error: [MissingControllerException] Controller class UploadsController could not be found.
+Exception Attributes: array (
+  'class' => 'UploadsController',
+  'plugin' => NULL,
+)
+Request URL: /UserLoginLogout/uploads/AaSfondi-desktop-HD-gratis-per-pc-Hulk.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\UserLoginLogout\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-11 14:50:17 Error: [MissingControllerException] Controller class UploadsController could not be found.
+Exception Attributes: array (
+  'class' => 'UploadsController',
+  'plugin' => NULL,
+)
+Request URL: /UserLoginLogout/uploads/AaSfondi-desktop-HD-gratis-per-pc-Hulk.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\UserLoginLogout\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-11 14:50:21 Error: [MissingControllerException] Controller class UploadsController could not be found.
+Exception Attributes: array (
+  'class' => 'UploadsController',
+  'plugin' => NULL,
+)
+Request URL: /UserLoginLogout/uploads/AaSfondi-desktop-HD-gratis-per-pc-Hulk.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\UserLoginLogout\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-11 14:50:38 Error: [MissingControllerException] Controller class UploadsController could not be found.
+Exception Attributes: array (
+  'class' => 'UploadsController',
+  'plugin' => NULL,
+)
+Request URL: /UserLoginLogout/uploads/AaSfondi-desktop-HD-gratis-per-pc-Hulk.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\UserLoginLogout\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-11 14:51:45 Error: [MissingControllerException] Controller class UploadsController could not be found.
+Exception Attributes: array (
+  'class' => 'UploadsController',
+  'plugin' => NULL,
+)
+Request URL: /UserLoginLogout/uploads/AaSfondi-desktop-HD-gratis-per-pc-Hulk.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\UserLoginLogout\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-11 14:56:03 Error: [MissingControllerException] Controller class UploadsController could not be found.
+Exception Attributes: array (
+  'class' => 'UploadsController',
+  'plugin' => NULL,
+)
+Request URL: /UserLoginLogout/uploads/AaSfondi-desktop-HD-gratis-per-pc-Hulk.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\UserLoginLogout\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-11 14:56:10 Error: [MissingControllerException] Controller class UploadsController could not be found.
+Exception Attributes: array (
+  'class' => 'UploadsController',
+  'plugin' => NULL,
+)
+Request URL: /UserLoginLogout/uploads/AaSfondi-desktop-HD-gratis-per-pc-Hulk.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\UserLoginLogout\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
